@@ -29,6 +29,7 @@ public class DataAccessSOAPTest {
         assertThat(response.getNumberToWordsResult().trim()).isEqualToIgnoringCase("ten");
     }
 
+
     @Test
     void escreverValorEmDolaresPorExtenso(){
         NumberToDollars request = new NumberToDollars();

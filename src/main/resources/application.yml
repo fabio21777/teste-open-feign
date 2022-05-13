@@ -3,6 +3,11 @@ dataaccess:
     url: https://www.dataaccess.com/webservicesserver/NumberConversion.wso
     wsdl: https://www.dataaccess.com/webservicesserver/NumberConversion.wso?WSDL
 
+continents:
+  soap:
+    url: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+    wsdl: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
+
 # mostra todos os logs de pedido/resposta HTTP
 logging.level.com.example.testeopenfeign: DEBUG
 
